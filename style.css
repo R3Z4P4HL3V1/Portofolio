@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: ivory;
+}
+
+* {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.lpage{
+    background-image: url(Image/landing\ page1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.tekslpage{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    color:#FAEED1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 7%;
+    background-color: rgba(97, 103, 122, 0.9);
+    border-bottom: 1px solid;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.navbar .navbar-nav a{
+    color: #FAEED1;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.aboutme{
+    padding: 2em 0;
+}
+
+.teks{
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.intro{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.row .education,.working{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.row .education .gambar{
+    border-radius: 5%;
+    width: 80%;
+    max-width: 25em;
+}
+
+.row .working .gambar{
+    border-radius: 5%;
+    width: 80%;
+    max-width: 25em;
+}
+
+.gambar1 {
+    max-width: 25em;
+}
+
+.portofolio{
+    padding: 2em 0;
+}
+
+.title_portofolio{
+    text-decoration: underline;
+    text-align: center;
+    font-weight:300;
+    font-size:xx-large;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portofolio .container img{
+    max-width: 20%;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
